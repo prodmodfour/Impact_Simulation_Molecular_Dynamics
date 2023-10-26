@@ -1,0 +1,42 @@
+atom_system
+	1001 
+		During the creation of the first layer of a pure metal, a unit cell has been created and the top left atom	
+		of the next cell has been initialised
+	1002 
+		During the repeat layer function, a a layer has been created and added to the layer list and the current layer 	variable has been initialised.
+	1003 
+		During the convert_to_atom_position_list function, a cell's atom posiotns have been added to the atom position list. Duplicate entries for atom positions have been removed. 
+	1004 
+		During the populate_dataframe function, an atom with its corresponding atom name, position, status and initial values for for force and velocity is added as a row to the dataframe_rows dict. 
+	1005
+		Reached end of atom force update function
+	1006
+		Created random velocity values for an atom
+	1007
+		Calculated lennard-jones force between two atoms
+	1008
+		Calculated spring force between two boundary atoms
+	1009
+		Calculated kinetic energy of an atom
+	1110
+		Updated system temperature
+	1011
+		Determined that an atom is in the bulk
+	1022 
+		Determined that an atom is in the boundary
+
+md_simulation
+	2000
+		Simulated a step
+	2100
+		Thermostatted an atom
+
+history_writer
+	3001
+		Trajectory file initialised
+	3002
+		Trajectory file appended
+
+atom_generator
+	4001
+		atoms generated
